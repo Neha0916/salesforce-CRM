@@ -19,7 +19,11 @@ Fields: Number fields, rollup summary fields, cross-object formula fields
 Relationships: Master-Detail relationships
 User Interface: Custom Tabs, Page Layouts, Lightning App
 Security: Validation Rules, Permission Sets
-
+# Prerequisites
+- Salesforce Developer account
+- Knowledge of Salesforce admin concepts
+- Two web browsers installed on the machine
+- Good internet connectivity
 # Features and Functionality
 ### Reporting and Dashboards
 The application generates detailed reports and analytics on daily rice sales, total income, revenue generated, popular amenities, and customer buying patterns. These insights help the owner understand data, improve resource allocation, and plan future developments.
@@ -31,32 +35,22 @@ These fields reference fields from another object in Salesforce. For instance, c
 Validation rules ensure data integrity by including error messages when invalid values are entered. For example, using the IsBlank formula to verify whether a field is blank and display an error message if so.
 ### Permission Sets
 Organization-Wide Defaults (OWD) are used to restrict access. Roles are created such that the owner can see employer and worker records, and the employer can see worker records.
-# Implementation Steps
-### Prerequisites
-- Salesforce Developer account
-- Knowledge of Salesforce admin concepts
-- Installed with two web browsers
-- Good internet connectivity
-### Milestones and Activities
+# Project Report
+You can download the detailed project report from the following link:
+[Project Report PDF](./SI-1567-1719246208.pdf)
+
+# Milestones and Activities
 #### 1. Creating Developer Account
 Sign up for a Salesforce Developer account.
 ![1719775291602](https://github.com/Neha0916/salesforce-CRM/assets/98107526/5cab1451-f38c-4e9f-9bc0-45f28075d262)
-![1719775113541](https://github.com/Neha0916/salesforce-CRM/assets/98107526/9f4fe4af-a8c7-4bbc-a2cd-4178d68e1fc3)
-
 
 #### 2. Creating Objects
-Supplier Object: Manage supplier details.
+- Supplier Object: Manage supplier details.
 ![1719775593325](https://github.com/Neha0916/salesforce-CRM/assets/98107526/cd308339-36ea-44e4-8642-9ef1a42c64d8)
 
-Rice Mill Object: Manage rice mill details.
-![1719775649560](https://github.com/Neha0916/salesforce-CRM/assets/98107526/1838c1e3-2b2f-4b75-9d9e-35c415a2a5ad)
-
-Consumer Object: Manage consumer details.
-![1719775716371](https://github.com/Neha0916/salesforce-CRM/assets/98107526/dfa359a6-b798-4422-93ed-8feb099bed66)
-
-Rice Details Object: Track rice production and sales.
-![1719775746973](https://github.com/Neha0916/salesforce-CRM/assets/98107526/84684c60-9eae-4b8a-8eaa-4ef98c520b4b)
-
+- Rice Mill Object: Manage rice mill details.
+- Consumer Object: Manage consumer details.
+- Rice Details Object: Track rice production and sales.
 #### 3. Creating Tabs
 Create custom tabs for each object to easily access data.
 ![1719775810971](https://github.com/Neha0916/salesforce-CRM/assets/98107526/27b2b1d0-0af4-4384-898d-6f6a02969644)
@@ -81,8 +75,6 @@ Add users to the Salesforce organization and assign appropriate profiles and rol
 Define permission sets to grant additional permissions to users beyond their profiles.
 #### 10. Creating Reports
 Create detailed reports to track rice production, sales, and other key metrics.
-![1719776694734](https://github.com/Neha0916/salesforce-CRM/assets/98107526/582bd26b-d48e-429d-92f8-07666df43a5a)
-
 #### 11. Creating Dashboards
 Design dashboards to provide visual summaries of key metrics and reports.
 ![1719776665471](https://github.com/Neha0916/salesforce-CRM/assets/98107526/8dbe2731-917d-48db-94a8-6e8f27887d72)
